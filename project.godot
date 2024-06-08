@@ -1,0 +1,22 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=5
+
+[application]
+
+config/name="spyderlib"
+run/main_scene="res://example/Initialize.tscn"
+config/features=PackedStringArray("4.2", "Forward Plus")
+
+[autoload]
+
+Logger="*res://services/Logger/Logger.gd"
+DependencyInjection="*res://services/DependencyInjection/DependencyInjection.gd"
+Registrations="*res://services/DependencyInjection/Registrations.gd"
+Configuration="*res://services/Configuration/Configuration.gd"
