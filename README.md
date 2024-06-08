@@ -1,4 +1,4 @@
-# SpyderLib v0.1.0
+# GDX v0.1.0
 
 A Godot plugin that aims to bring industry standard tools and design patterns to the GDScript language.
 
@@ -6,7 +6,7 @@ A Godot plugin that aims to bring industry standard tools and design patterns to
 
 For now, the setup process is manual. The library is still in beta testing and is not available in Godot's AssetLib.
 
-To use SpyderLib in your Godot project, clone the **godot_v4** branch of this repository, then create a folder in your project called **spyderlib**, and paste in following folders:
+To use GDX in your Godot project, clone the **godot_v4** branch of this repository, then create a folder in your project called **gdx**, and paste in following folders:
 
 * config
 
@@ -142,4 +142,4 @@ Then use the various **Get** functions to access these settings, using a semi-co
 
 You can also use the **appsettings.debug.json** and **appsettings.release.json** files if you want to add settings that only target debug or release mode respectively.
 
-If you are wanting user-level configuration settings that are stored outside the project and are therefore invisible to the project's SCM/VCS, you can find a **usersettings.json** file, along with a debug and release equivalent, inside the user://{project}/spyderlib directory.
+If you are wanting user-level configuration settings that are stored outside the project and are therefore invisible to the project's SCM/VCS, you can find a **usersettings.json** file, along with a debug and release equivalent, inside the user://{project}/gdx directory.
