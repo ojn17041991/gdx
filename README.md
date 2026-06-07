@@ -1,7 +1,3 @@
-<div align=center>
-  <img width="320" height="320" src="https://i.imgur.com/m4GIQSo.png">
-</div>
-
 # GDX v0.1.0
 
 A Godot plugin that aims to bring industry standard tools and design patterns to the GDScript language.
